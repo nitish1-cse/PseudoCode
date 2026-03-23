@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class Factorial {
+    /*
+    DECLARE NUM : INTEGER
+    DECLARE FACT : INTEGER
+    READ NUM 
+    SET FACT = 1;
+    FOR I = 1 TO NUM 
+    END FOR
+    PRINT FACT
+    */
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int num = sc.nextInt();
+        int fact = 1;
+
+        for(int i = 1; i <= num; i++){
+            fact = fact * i;
+        }
+
+        System.out.println(fact);
+    }
+}
