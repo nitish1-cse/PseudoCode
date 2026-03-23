@@ -8,7 +8,7 @@ This repository contains a well-organized collection of Java programs covering p
 
 | File Name | Category | Description |
 |----------|--------|------------|
-| Add2ByFunction.java | Functions | Demonstrates difference between function (returns value) and procedure (void). |
+| Add2ByFunction.java | Functions | Add Two number by function |
 | AddTwoMatrix.java | Arrays (2D) | Adds two 3×3 matrices. |
 | AocByFunctionAndProcedure.java | Functions | Calculates area of a circle using both function and procedure. |
 | Area.java | Basic Math | Calculates area and perimeter using user input. |
